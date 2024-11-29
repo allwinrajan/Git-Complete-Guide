@@ -1,5 +1,65 @@
 # Git
 
+# 🧰 Git and GitHub Notes
+
+## 🌟 Git
+- **Git** is an open-source **version control tool** used to:
+  - Manage source code.
+  - Achieve collaboration with multiple teams. 🤝
+- Git is a **software** that must be installed on the local system (e.g., laptop or desktop). 💻
+- Git is also known as a **local repository**.
+
+---
+
+## 🌐 GitHub
+- **GitHub** is a **web-hosted service** that can be accessed through the internet. 🌍
+- It is referred to as a **remote repository**. ☁️
+
+---
+
+## 🛠️ Basic Git Commands
+Here are some essential Git commands for beginners:
+
+1. **`git init`**  
+   - 🏗️ Initializes an **empty Git repository** in the current directory.
+
+2. **`git status`**  
+   - 📋 Displays the **current status** of files or directories in the repository.
+
+3. **`git add <filename>`**  
+   - ➕ Adds the specified file to the **staging area**.
+
+---
+
+## 📝 Setup Instructions
+Follow these steps to set up and use Git:
+
+1. **Create a folder** on your desktop (or any preferred directory).  
+   ⚠️ **Note:** Do not directly access GitHub from the desktop.  
+   - Right-click on the folder and select **"Open Git Bash"** to start using Git.
+
+2. **Configure Git** before committing for the first time:
+   - **Set the global username:**  
+     ```bash
+     git config --global username "github_username"
+     ```
+   - **Set the global email address:**  
+     ```bash
+     git config --global user.email "github_email_id"
+     ```
+   - **List the current configuration:**  
+     ```bash
+     git config --list
+     ```
+
+---
+
+## ❗ Notes
+- 🛑 **Before committing for the first time**, ensure that the local Git repository is configured with your **username** and **email**.
+
+---
+
+
 ### Git Basics
 
 <details>
